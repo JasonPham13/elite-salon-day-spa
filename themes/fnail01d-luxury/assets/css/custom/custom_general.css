@@ -1,0 +1,37 @@
+.alert.alert-aquamarine {
+    border: 1px solid #43ca43;
+    border-radius: inherit;
+    background: #b3fb9b;
+}
+
+.form-control-wrapper {
+  position: relative;
+}
+
+p.title_giftcard {
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+    margin: 10px;
+    color: #fff;
+}
+
+p.des_giftcard {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.white-popup {
+    position: relative !important;
+    background: #FFF!important;
+    width: auto!important;
+    /*max-width: 80%!important;*/
+    margin: 20px auto!important;
+    clear: both;
+    overflow: hidden;
+    color: #333;
+}
+
+.mfp-close {
+    /*background-color: whitesmoke !important;*/
+}

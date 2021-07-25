@@ -1,0 +1,433 @@
+/* Large screen desktop */
+
+@media (min-width: 1366px) and (max-width: 1500px) {}
+
+@media (min-width: 1170px) and (max-width: 1370px) {}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .slider-inner h1 {
+        font-size: 47px !important;
+        line-height: 43px !important;
+    }
+    .slider-inner p {
+        font-size: 20px !important;
+    }
+    .about_text_home_v1 h3 {
+        line-height: 70px;
+    }
+    .about_box_right {
+        padding: 10px 58px 15px;
+    }
+    .about_box_right .about_details_home {
+        padding-bottom: 0;
+    }
+    .appoinment_title p.section_details {
+        display: none;
+    }
+    .appoinment_inner {
+        margin-top: 25px;
+    }
+    .mt_40 {
+        margin-top: 15px;
+    }
+    .group-select {
+        width: 220px;
+        margin-right: 10px;
+    }
+    .btn-search {
+        margin-left: 0;
+        height: 41px;
+        width: 125px;
+    }
+    .header-nav li.control_menu_hidden {
+        display: none;
+    }
+    /*
+    .header_ver4 .topbar {
+        margin-top: 70px;
+    }
+    */
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-inner h1 {
+        font-size: 34px !important;
+        margin-bottom: 30px !important;
+    }
+    .slider-shape-1::after {
+        display: none;
+    }
+    .slider-inner p {
+        font-size: 16px !important;
+        margin-bottom: 30px !important;
+    }
+    .slider-area .slick-dots li.slick-active button::before {
+        color: #ffc267;
+        opacity: 1;
+    }
+    .our_service_title {
+        margin-bottom: 0;
+    }
+    .single_service_area {
+        margin-top: 120px;
+    }
+    .single_service_area .btn_book_service a {
+        margin-left: 33%;
+    }
+    .single_news_trend {
+        margin-top: 45px;
+    }
+    .about_thumb_v1 .thumb_img img {
+        width: 100%;
+    }
+    .work_timings li.hour_time {
+        width: 155px;
+        margin-bottom: 50px;
+    }
+    .thumb_img_appoiment .pdf_0 {
+        padding-left: 15px;
+    }
+    .news_trend_v1.ptb_90 {
+        padding-bottom: 0;
+    }
+    .signle_post_v1 .img_post_rc_v1 {
+        width: 15%;
+    }
+    .time_work_staff_v1 ul li a {
+        float: left;
+    }
+    .time_work_staff_v1 ul li+li {
+        margin-left: 0;
+    }
+    .staff_service_v1 .details_staff h2,
+    .time_work_staff_v1 h3 {
+        font-size: 20px;
+    }
+    .box-date {
+        width: 260px;
+    }
+    .btn-search {
+        width: 260px;
+    }
+    .working_time_v3 .work_time_v3 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .our_ourworking_title {
+        margin: auto;
+    }
+    .header_ver4 .topbar {
+        position: relative;
+        margin-top: 0;
+        background: #212123;
+    }
+    .content_title_hour_v4 p {
+        width: 100%;
+    }
+    .inner_header_v4 .topbar {
+        position: relative;
+        margin-top: 0;
+        background: #212123;
+        padding: 0;
+    }
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .slider-inner h1 {
+        font-size: 16px !important;
+        line-height: 20px !important;
+        margin-bottom: 23px !important;
+    }
+    .slider-shape-1::after {
+        display: none;
+    }
+    .slider-inner p {
+        display: none;
+    }
+    .slider-area .slick-dots li.slick-active button::before {
+        color: #ffc267;
+        opacity: 1;
+    }
+    .single-slider-wrap,
+    .slider-content {
+        height: 134px !important;
+    }
+    .slider-button .hs-btn.btn-light.btn-large {
+        height: 38px !important;
+        line-height: 37px !important;
+        padding: 0 15px !important;
+    }
+    .slider-button .hs-btn {
+        font-size: 12px !important;
+    }
+    .slider-nav-style-1 .slick-dots {
+        right: 8px !important;
+    }
+    .slider-inner {
+        text-align: left;
+    }
+    .col-md-3.col-lg-3.col-sm-6.col-xs-12 .single_footer_widget {
+        margin-bottom: 40px;
+    }
+    .about_thumb_v1 .thumb_img {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+    .about_thumb_v1 .thumb_img img {
+        width: 100%;
+    }
+    .about_thumb_v1 .thumb_img::before {
+        height: calc(100% - 55px);
+    }
+    .about_text_home_v1 {
+        width: 50px;
+    }
+    .about_text_home_v1 h3 {
+        font-size: 14px;
+        line-height: 50px;
+    }
+    .about_thumb_v1 .thumb_text {
+        width: 44px;
+    }
+    .about_box_right {
+        padding: 60px 20px 60px;
+    }
+    .single_service_area {
+        margin-top: 120px;
+    }
+    .our_service_title {
+        margin-bottom: 0;
+    }
+    .single_service_area .btn_book_service a {
+        margin-left: 33%;
+    }
+    .cbox_open_hour_v1 {
+        padding: 90px 15px 0;
+    }
+    .single_news_trend {
+        margin-top: 45px;
+    }
+    .appoinment_form .input-box {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .appoinment_form .input-box>input {
+        width: 100%;
+    }
+    .appoinment_form .input-box>input+input {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .appoinment_form .input-box select {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+    }
+    .newsletter_v1_inner .newsletter_tile {
+        font-size: 20px;
+        font-weight: 700;
+        height: 41px;
+        line-height: 66px;
+    }
+    .nws_input_box {
+        height: 70px;
+        line-height: 70px;
+    }
+    .newsletter_v1_inner .sing_up_btn {
+        height: 70px;
+        justify-content: flex-start;
+    }
+    .footer_top_v1 {
+        padding-bottom: 0;
+    }
+    .section-padding {
+        padding: 20px 0;
+    }
+    .open-timings {
+        padding-top: 30px;
+    }
+    .work_timings li.hour_time {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cbox_open_hour_v1 .list_days {
+        text-align: center;
+    }
+    .cbox_open_hour_v1 {
+        box-shadow: none;
+    }
+    .pro-item {
+        margin-bottom: 30px !important;
+    }
+    .thumb_img_appoiment .pdf_0 {
+        padding-left: 15px;
+    }
+    .news_trend_v1.ptb_90 {
+        padding-bottom: 0;
+    }
+    .about_home_v1.ptb_90 {
+        padding-top: 45px;
+    }
+    .mgb_service {
+        margin-bottom: 50px;
+    }
+    .service_price_table.ptb_90 {
+        padding-top: 45px;
+        padding-bottom: 0;
+    }
+    .services_table {
+        padding-bottom: 45px;
+    }
+    .news_top_comment.middle_comment {
+        margin: 32px 0 33px 0px;
+    }
+    .submit_name_psw {
+        padding: 0;
+    }
+    .btn_login_social .btn_facebook_v1 {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .btn_login_social .btn_gplus_v1 {
+        width: 100%;
+    }
+    .popup_main_area .border_right {
+        border-right: 0;
+    }
+    .time_work_staff_v1 ul li a {
+        float: left;
+    }
+    .time_work_staff_v1 ul li+li {
+        margin-left: 0;
+    }
+    .staff_service_v1 .details_staff h2,
+    .time_work_staff_v1 h3 {
+        font-size: 20px;
+    }
+    .content-shop-booking {
+        padding-left: 5px;
+        padding-top: 15px;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    .box-date {
+        width: 100%;
+    }
+    .btn-search {
+        width: 100%;
+        margin-left: 0;
+    }
+    .group-select {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .add-services {
+        margin-bottom: 30px;
+    }
+    .working_time_v3 .work_time_v3 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .our_ourworking_title {
+        margin: auto;
+    }
+    .header_ver4 .logo_ver3 {
+        text-align: center;
+        margin-bottom: 6px;
+    }
+    .header_ver4 .topbar {
+        position: absolute;
+        z-index: 1041;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding-top: 10px;
+        margin-top: 0px;
+    }
+    .content_title_hour_v4 p {
+        width: 100%;
+    }
+    .inner_header_v4 .topbar {
+        position: relative;
+        margin-top: 0;
+        background: #212123;
+        padding: 0;
+    }
+    .nav_right {
+        float: none !important;
+        text-align: center;
+    }
+    .show-shopping-cart {
+        width: 275px;
+        right: -68px;
+    }
+    .top_link.lang-meta ul,
+    .top_link .user-meta ul {
+        right: -123px;
+    }
+}
+
+/*Fix open hours board on small mobile*/
+@media only screen and (max-width: 767px) {
+    .opening-hour-grid {
+        padding: 5px 8px;
+        margin-bottom: 15px;
+    }
+    .opening-hour-grid h4 {
+        float: left;
+        padding-left: 15px;
+    }
+    .opening-hour-grid span
+    {
+        float: left;
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: uppercase;
+        margin: 10px 0px;
+        padding-left: 5px;
+    }
+
+    /* show slider in mobile */
+    #ninzio-slider {
+        margin-top: 150px;
+    }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+@media only screen and (max-width: 767px) {
+    .gallery_box_page {
+        padding-top: 10px;
+    }
+}
+
+/*reposive open hours*/
+@media only screen and (max-width: 543px) {
+    .work_timings ul li
+    {
+        width: 50%;
+    }
+    .work_timings ul li div
+    {
+        height: 150px;
+    }
+    .work_timings ul li div p:nth-child(even) {
+        font-size: 13px;
+    }
+    .work_timings ul li div p:nth-child(odd) {
+        margin-top: 50px;
+    }
+}

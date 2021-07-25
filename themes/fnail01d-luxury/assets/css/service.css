@@ -1,0 +1,157 @@
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color:#fec168;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 1;
+}
+h1.service-name{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 1;
+    color:#feca2f;
+    background-position: 5px 2px;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #feca2f;
+    padding-right: 15px;
+}
+.sub_service h1.service-name {
+    font-size: 22px;
+}
+.sub_service h4{
+    font-size: 16px;
+}
+
+h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+hr{
+    border-top: 1px solid #fec168;
+    margin:15px 0;
+}
+.btn-default{
+    font-size: 12px;
+    background-color: #fec31a;
+    color: #ffffff;
+    border-color: #fff;
+}
+a.btn-default{
+    color: #ffffff !important;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus,
+.btn-default.active,
+.btn-default.focus,
+.btn-default:active:hover{
+    background-color: #886a14;
+    color: #ffffff;
+    border-color: #886a14;
+}
+.btn-primary{
+    font-size: 12px;
+    background-color: #fec168;
+    color: #ffffff;
+    border-color: #fec168;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active:hover{
+    background-color: #e28c0f;
+    border-color: #e28c0f;
+}
+.page-container{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.price-item{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #f0f1f3;
+}
+.price-item-number{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+.circle-service-image{
+    width: 100%;
+    border-radius:50%;
+    border: 3px solid #a12c60;
+    display: inline-block;
+    margin-top: 20px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.25s ease;
+    padding-bottom: 100%;
+}
+.rouded-service-image{
+    width: 180px;
+    height: 180px;
+    border-radius:5px;
+    background-image:url('../images/nailservice-picture-1.jpg');
+    display: inline-block;
+    margin-top: 20px;
+}
+.service-row{
+    padding-top: 20px;
+}
+.top-right{
+    text-align: left;
+}
+.detail-price-item{
+    display: flex;
+    width:100%;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.detail-price-dots{
+    flex: 1;
+    border-bottom: 2px dotted #737373;
+}
+.detail-price-number{
+    padding-left: 5px;
+    font-size: 16px;
+}
+.detail-price-name{
+    padding-right: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+@media (min-width: 768px){
+    .top-right{
+        text-align: right;
+    }
+}
+@media (min-width: 992px){
+}
+@media (min-width: 1200px){
+    .rouded-service-image{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 767px){
+    .btn_service_book,.title_page_service {
+        text-align: center;
+    }
+    .btn_service_defale{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,45 @@
+/* Consent */
+.consent-form, .consent-form2 {
+    text-align: center;
+    padding: 15px 0;
+}
+.consent-form2 {
+    border-top: 2px solid;
+    margin: 15px auto;
+}
+
+.send_consent {
+    text-align: left;
+}
+.send_consent .hidden {
+    display: none;
+}
+.inline-items .inline-item {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.send_consent .small {
+    font-size: 90%;
+}
+
+.send_consent .btn_consent {
+    display: block;
+    width: 100%;
+}
+
+.consent-btn, .consent-btn:hover, .consent-btn:focus {
+    padding: 10px 15px;
+    border: 1px solid;
+}
+
+.btn_consent, .btn_consent:hover, .btn_consent:focus {
+    display: block;
+    width: 100%;
+    border: 1px solid;
+}
+
+.consent-btn:hover, .send_consent .btn_consent:hover {
+    box-shadow: 0 0 3px #ddd;
+}

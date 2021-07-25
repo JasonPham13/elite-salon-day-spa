@@ -1,0 +1,26 @@
+.signature {
+    position: relative;
+    z-index: 1;
+    border: 1px solid #eee;
+}
+.signature .signatureInput {
+    background-color: #fff;
+}
+.signature .signatureBtnClear {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    line-height: 1;
+    background-color: #eee;
+
+    cursor: pointer;
+    font-size: 15px;
+}
+
+@media (max-width: 575px) {
+    .signature .signatureInput canvas {
+        min-height: 240px;
+    }
+}

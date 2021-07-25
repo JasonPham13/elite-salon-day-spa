@@ -1,0 +1,100 @@
+/* Light YouTube Embeds by @labnol */
+/* Web: http://labnol.org/?p=27941 */
+/* Web: https://noembed.com */
+/* Edited T8d5y2017 by ThamLV*/
+
+.youtube-container {
+    padding-bottom: 15px;
+}
+.youtube-player {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* Use 75% for 4:3 videos */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin: 0px;
+}
+
+.youtube-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: transparent;
+}
+
+.youtube-player img {
+    bottom: 0;
+    display: block;
+    left: 0;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition: .4s all;
+    -moz-transition: .4s all;
+    transition: .4s all;
+}
+
+.youtube-player img:hover {
+    -webkit-filter: brightness(75%);
+}
+
+.youtube-player .play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url("play.png") no-repeat center center;
+    background-size:100%;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.youtube-player:hover .play {
+    background: url("play-hover.png") no-repeat center center;
+    background-size:100%;
+    opacity: 1;
+}
+
+.youtube-player.item .play {
+    height: 36px;
+    width: 36px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.youtube-player h3 {
+    color: #fff;
+    text-shadow: 1px 1px #333;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.youtube-player.main h3 {
+    font-size: 17px;
+    line-height: 21px;
+    height: 29px;
+}
+.youtube-player.item h3 {
+    font-size: 13px;
+    line-height: 15px;
+    height: 20px;
+}
