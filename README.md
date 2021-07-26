@@ -33,6 +33,14 @@
 
 `git push origin <branch name>`
 
+5. Create merge request
+
+6. Check merge request and check prerealease website (click details)
+
+7. Click Merge and DELETE BRANCH
+
+
+
 ### Git Cleanup
 
 1. Switch to main branch
