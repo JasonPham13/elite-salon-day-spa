@@ -21,7 +21,9 @@
 
 2. Add files / stage files
 
-`git add <the-files-you-want>>`
+`git add <the-files-you-want>`
+
+`git add .` (add all files)
 
 3. Commit files to local respository
 
@@ -35,7 +37,7 @@
 
 1. Switch to main branch
 
-`git checkout origin main`
+`git checkout main`
 
 2. Pull latest code from main to local
 
